@@ -4,7 +4,7 @@
 - Entire React Tech Stack
 - Firebase Hosting
 - User Authentication
-- [Spotify API](https://developer.spotify.com/dashboard/)
+- [Spotify API](https://developer.spotify.com/dashboard/) Sprotify for Developers
 - Responsive Design
 - Material UI (Icons)
 - React Context API (REDUX)
