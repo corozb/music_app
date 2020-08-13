@@ -8,6 +8,7 @@
  - Redirect to Spotify login page
  - Redirect to home page once logged in
 - [Spotify API](https://developer.spotify.com/dashboard/) Spotify for Developers
+ `npm i spotify-web-api-js`
 - Responsive Design
 - Material UI (Icons)
 - React Context API (REDUX)
