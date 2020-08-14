@@ -1,0 +1,19 @@
+.sidebarOption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: grey;
+  height: 40px;
+  cursor: pointer;
+  -webkit-transition: 200ms color ease-in;
+  transition: 200ms color ease-in;
+}
+
+.sidebarOption:hover {
+  color: #fff;
+}
+
+.sidebarOption__icon {
+  padding: 0 10px;
+}
+/*# sourceMappingURL=SidebarOption.css.map */

@@ -1,0 +1,11 @@
+.body {
+  border: 1px solid red;
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+  height: 100vh;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5b5773), to(#000));
+  background: linear-gradient(#5b5773, #000);
+}
+/*# sourceMappingURL=Body.css.map */
