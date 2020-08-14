@@ -11,6 +11,6 @@
  `npm i spotify-web-api-js`
 - Responsive Design
 - Material UI (Icons)
-- React Context API (REDUX)
+- React Context API (like REDUX)
 - Modern Tech
 - Massive VALUE
