@@ -1,11 +1,81 @@
 .body {
-  border: 1px solid red;
+  padding: 30px;
   -webkit-box-flex: 0.8;
       -ms-flex: 0.8;
           flex: 0.8;
   height: 100vh;
+  overflow-y: overlay;
   color: #fff;
   background: -webkit-gradient(linear, left top, left bottom, from(#5b5773), to(#000));
   background: linear-gradient(#5b5773, #000);
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.body__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 10px;
+}
+
+.body__info > img {
+  width: 20vw;
+  margin: 0 20px;
+  -webkit-box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body__infoText {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.body__infoText > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.body__infoText > p {
+  font-size: 14px;
+}
+
+.body__songs {
+  z-index: 1;
+  margin: 20px -30px;
+}
+
+.body__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body__icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+.body__shuffle.MuiSvgIcon-root {
+  font-size: 80px;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.body__shuffle.MuiSvgIcon-root:hover {
+  -webkit-transition: 0.1s -webkit-transform ease-in;
+  transition: 0.1s -webkit-transform ease-in;
+  transition: 0.1s transform ease-in;
+  transition: 0.1s transform ease-in, 0.1s -webkit-transform ease-in;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
 }
 /*# sourceMappingURL=Body.css.map */

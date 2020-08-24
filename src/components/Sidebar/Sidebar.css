@@ -1,17 +1,18 @@
 .sidebar {
-  height: 100vh;
   -webkit-box-flex: 0.2;
       -ms-flex: 0.2;
           flex: 0.2;
-  color: #fff;
-  background-color: #040404;
   padding: 0 10px;
   min-width: 230px;
   height: 100vh;
+  color: #fff;
+  background-color: #040404;
 }
 
 .sidebar__logo {
   margin-right: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
   height: 70px;
   padding: 10px;
 }

@@ -5,7 +5,6 @@ import Login from './components/Login/Login'
 import Player from './components/Player/Player'
 import { getTokenFromUrl } from './config/spotify'
 import { useDataLayerValue } from './components/Reducer/DataLayer'
-import './App.css'
 
 const spotify = new SpotifyWebApi()
 
@@ -38,6 +37,13 @@ function App() {
 					playlists,
 				})
 			})
+
+			spotify.getPlaylist('37i9dQZEVXcH4Sh182Qw1i').then((response) =>
+				dispatch({
+					type: 'SET_DISCOVER_WEEKLY',
+					discover_weekly: response,
+				})
+			)
 		}
 	}, [])
 
